@@ -6,12 +6,12 @@
 1. Вики:
      1. DokuWiki (с помощью плагина)
      2. ikiwiki
-     3.Oddmuse
+     3. Oddmuse
      4. PmWiki (с помощью плагина)
 2. Блоги:
-    - o Tumblr — изначально отключён, но можно использовать, включив в
+    -  Tumblr — изначально отключён, но можно использовать, включив в
      настройках.
-    - o scriptogr.am
+    -  scriptogr.am
 3. CMS:
     - o Drupal — content-фильтр Markdown
     - o Magento — с помощью модуля
