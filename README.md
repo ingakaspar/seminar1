@@ -13,8 +13,12 @@
      настройках.
     -  scriptogr.am
 3. CMS:
-    - o Drupal — content-фильтр Markdown
-    - o Magento — с помощью модуля
-    - o Plone — «родная» поддержка в Plone 3
-    - o TYPO3 — с помощью плагина af_markdown
-    - o RadiantCMS — один из видов разметки, доступный «из коробки»
+    -  Drupal — content-фильтр Markdown
+    -  Magento — с помощью модуля
+    -  Plone — «родная» поддержка в Plone 3
+    -  TYPO3 — с помощью плагина af_markdown
+    -  RadiantCMS — один из видов разметки, доступный «из коробки»
+1|2|3
+Разработчик |:Джон Грубер:|
+Опубликован |:2004-03-19:|
+Сайт |:https://daringfireball.net/projects/markdown/:|
