@@ -18,7 +18,8 @@
     -  Plone — «родная» поддержка в Plone 3
     -  TYPO3 — с помощью плагина af_markdown
     -  RadiantCMS — один из видов разметки, доступный «из коробки»
-1|2|3
-Разработчик |:Джон Грубер:|
-Опубликован |:2004-03-19:|
-Сайт |:https://daringfireball.net/projects/markdown/:|
+1|2
+---|:---
+Разработчик |:Джон Грубер
+Опубликован |:2004-03-19
+Сайт |:https://daringfireball.net/projects/markdown/
