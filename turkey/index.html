@@ -1,0 +1,1763 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f935fb6e29b3be27f2bcc56e198a3352 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f935fb6e29b3be27f2bcc56e198a3352" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f935fb6e29b3be27f2bcc56e198a3352 = L.map(
+                "map_f935fb6e29b3be27f2bcc56e198a3352",
+                {
+                    center: [39.89299120446281, 31.65153790512397],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b1bb24c8088fb81287113bd08200dfbb = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e \u0026mdash; Map data \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 10, "maxZoom": 10, "minZoom": 2, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            var circle_marker_83c2583f6ad7af3c4684f68c33ee8109 = L.circleMarker(
+                [40.36049993391325, 32.672866891479615],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_83c2583f6ad7af3c4684f68c33ee8109.bindTooltip(
+                `<div>
+                     Yaklaşık 30 yıldır köpek besler ve eğitirim bu çocuğu da arama kurtarma köpeği olarak eğiteceğim Deprem ülkemizin bir gerçeği hepimiz deprem konusun da elimizi taşın altına koymalıyız Deprem öldürmez ihmal öldürür.#Deprem #Afad #ankara #iyiparti @Akburak @iyipartiAKM https://t.co/rzq3EZmBe4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2fa06f4b7026a7e4ce0768556f48e1f4 = L.circleMarker(
+                [40.71084664179706, 29.220973962280667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_2fa06f4b7026a7e4ce0768556f48e1f4.bindTooltip(
+                `<div>
+                     @SukruGENCBaskan 6 şubattan beri Sarıyer li vatandaşlar soruyor depreme hazırmıyız diye belediyeden çıt yok. Çünkü hazır değil tek hazırlıkları arama kurtarma köpeği şilan oda enkazdan ölü yaralı çıkarır başkanda o anda rakı balık yapar artık yada vatandaşa KÜFÜR EDER  iki ayaklı köpekler diye
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_07be8f9832016f307984b2105fa8d955 = L.circleMarker(
+                [37.3179984733161, 39.25079802580822],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_07be8f9832016f307984b2105fa8d955.bindTooltip(
+                `<div>
+                     @barisatay @suleymansoylu Acaba Meksikaya  b.... a....y versek yerine bir kurtarma köpeği bize verirlermi ?
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1c33d80431174112d97c7e889702e626 = L.circleMarker(
+                [40.07200897736537, 36.402348669210994],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_1c33d80431174112d97c7e889702e626.bindTooltip(
+                `<div>
+                     🩸İlk depremlerin ardından Meksika'dan Türkiye'ye gelen ve çalışmalar sırasında yaşamını yitiren kurtarma köpeği Proteo'nun heykeli Sarıyer'e dikilecekmiş… https://t.co/JTJlFGKA8z
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2848fa4242b18a1c4c70f2b4e3ef8519 = L.circleMarker(
+                [41.100708460984166, 29.062144975270815],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_2848fa4242b18a1c4c70f2b4e3ef8519.bindTooltip(
+                `<div>
+                     Deprem bölgesinde arama kurtarma çalışmalarında bulunurken yaşamını yitiren arama kurtarma köpeği Proteo için Meksika'da töreni  #proteo #tahaduymaz Bülent Arınç Çekmeköy Ömer Çelik  Erol Özvar Yıldız Tilbe Sezgin Baran Korkmaz Açıklama Kaos Barış Atay AFAD ahbap #FuerzaTurquia https://t.co/Zu0c4g8Gw6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0dd82abb42cda505c53ed8e9756bb7d7 = L.circleMarker(
+                [41.06381184821696, 29.320280655009636],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_0dd82abb42cda505c53ed8e9756bb7d7.bindTooltip(
+                `<div>
+                     @__Adrasteia @yalnizcasibel @onediocom Onlar üç yıl eğitimli arama kurtarma köpeğiSokak köpekleri değil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0ea94a5383ca9545011b15a54aec5bbe = L.circleMarker(
+                [36.648959862621105, 37.868493448781365],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_0ea94a5383ca9545011b15a54aec5bbe.bindTooltip(
+                `<div>
+                     @herkesicinCHP Allah sesinizi toprağın altından getirsin, Japonya’dan gelen arama kurtarma köpeği kadar faydanız yok hep fitne fesat şaştık kaldık sizin elinizden #deprem #DevletiminYanindayim faydasız #chpkk nin gerçek yüzünü gösterdiğin için teşekkürler @RTErdogan https://t.co/o1iZe0AAvF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2297af1b2efc8867e961c48b01cf3f01 = L.circleMarker(
+                [37.50248172473159, 26.95252219566828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_2297af1b2efc8867e961c48b01cf3f01.bindTooltip(
+                `<div>
+                     İYİ Parti Kuşadası Belediye Meclis Üyemiz Özgün Limoncu’nun önerisi ile Mart Ayı Kuşadası Belediye Meclis’ine verdiğimiz önerge ile yaşamını yitiren arama kurtarma köpeği Proteo’nun ismi, Kuşadası Can Dostlar Defin Yeri’ne verilmiştir. https://t.co/YjXWsF5hPd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_da0890287d3543bb4e40ce4b1899275e = L.circleMarker(
+                [40.86519539284688, 29.087341989736085],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_da0890287d3543bb4e40ce4b1899275e.bindTooltip(
+                `<div>
+                     Türkiye’ye başka ülkelerden gelen ekiplerin yanında toplam 429 arama kurtarma köpeği gelmiş.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e2c836cba4ab3be6e0647e2506cb8b50 = L.circleMarker(
+                [41.29324699044197, 28.51628048091412],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_e2c836cba4ab3be6e0647e2506cb8b50.bindTooltip(
+                `<div>
+                     Deprem çantasının içine; vinç, hilti, arama kurtarma köpeği, seyyar tuvalet, sahra hastanesi, çadır ve konteynerı sığdıramayınca bir işe yaramadı. Jeoloji bilgisi, earth bilincine ihtiyaç daha mantıklı sanki…
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9c4b55c2e75be5218c91af8246b77740 = L.circleMarker(
+                [40.8800060040267, 29.016506669909404],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_9c4b55c2e75be5218c91af8246b77740.bindTooltip(
+                `<div>
+                     @RuningRain @saglikbakanligi Sokak köpeği kurtarmasın. Arama kurtarma köpeği gelsin 👊👊👊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ce72dbdb8998053ce35b25cd786564c9 = L.circleMarker(
+                [40.73128372143497, 39.757942637727844],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_ce72dbdb8998053ce35b25cd786564c9.bindTooltip(
+                `<div>
+                     🇭🇺 #Hun kardeş ülkesi #Macaristan'ın Devlet Bakanı Zoltán Kovács'ın kızı da Ilka Kovács arama ile kurtarma köpeği ile Kahramanmaraş'da yardım ekibinin arasında bulunmuştu... Koskoca devlet bakanın kızı! Çok duygulandık, çok gurur duyduk! Ne kadar teşekkür etsek azdır! https://t.co/kDkA4hq6Yo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_46261f46cc219882d08abdc5f5063bf7 = L.circleMarker(
+                [41.31025364604885, 29.011117210000442],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_46261f46cc219882d08abdc5f5063bf7.bindTooltip(
+                `<div>
+                     Meksika 'dan arama kurtarma köpeği geliyor hayatını kurtarma çalışmalarında kaybediyor. Türkiye 'de içinde hayvanların olduğu binalar vinç yok diye yıkılıyor!!O ölen hayvanların vebali de üzerinde olsun. https://t.co/PL1LsAjAsr
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_92d9a3cd94e727357a5a926c24580bef = L.circleMarker(
+                [41.31093470514801, 28.58683748891997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_92d9a3cd94e727357a5a926c24580bef.bindTooltip(
+                `<div>
+                     Sarıyer Belediyesi, Meksika ekibinin Adıyaman'da ölen köpeği Proteo'nun heykelini dikecek https://t.co/45CqLgg3b6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c116ced1f21c1c5ea8be4a438c2240d8 = L.circleMarker(
+                [40.50774540576726, 28.977919223997095],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_c116ced1f21c1c5ea8be4a438c2240d8.bindTooltip(
+                `<div>
+                     Meksikalı yardım ekibiyle geldiği Adıyaman'daki çalışma sırasında ölen arama/kurtarma köpeği Proteo'nun İstanbul'da heykeli dikilecek.#deprem#proteo#meksika#adiyaman https://t.co/AFAJl52Wnp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7e9d86ff5956d0400ff8462541cadbcd = L.circleMarker(
+                [37.33583137974985, 38.50242753242222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_7e9d86ff5956d0400ff8462541cadbcd.bindTooltip(
+                `<div>
+                     Avrupa'da turkiyemize gelen iki köpeği bile 2 can kurtarma derdine düştüğü bir durumda hepsinden Allah razı olsun malımızıda  sözde  insanlarımıza  teslim ettik onlarda hırsızlık peşinde!?????
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_434e27bc31562af27eddf9f787366419 = L.circleMarker(
+                [38.617201755264084, 27.343567923910108],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_434e27bc31562af27eddf9f787366419.bindTooltip(
+                `<div>
+                     Diyanet'ten ＂depremzede evlatlık＂ sorusuna yanıt: Evlat edinenle evlatlık arasında evlenme engeli yok.Eğitimden büyük bütçeye sahip olan, ama ülkeye bir depremde kurtarma köpeği kadar faydası olmayan #DiyanetKapatılsınİmam Hatipler ve tarikatlar yuvaları da...
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fcea5095c029d7ab84da610e3df368cc = L.circleMarker(
+                [36.668258691482876, 30.551515909597203],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_fcea5095c029d7ab84da610e3df368cc.bindTooltip(
+                `<div>
+                     Kahramanmaraş depreminde ülkemize kurtarma çalışmalarında hayatını kaybeden Meksika ordusunun arama kurtarma köpeği #Proteo için ülkesine dönünce askerî tören yapıldı.El país turco te lo agradece, tu nombre se mantendrá vivo Proteo 🇹🇷🇲🇽  @SEDENAmx https://t.co/GDclGcdHPY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7bd414fab459b318f443aba4f14e64a2 = L.circleMarker(
+                [41.16612776958753, 28.61085462804406],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_7bd414fab459b318f443aba4f14e64a2.bindTooltip(
+                `<div>
+                     Deprem çantalarımızı da güncellemek lazım. İçinde mutlaka bir çadır, en az 15 gün yetecek gıda kıyafet, hijyen malzemesi, en az 2 arama kurtarma personeli, 1 arama kurtarma köpeği, hilti, ekskavatör ve hemşire olmalı. Ayrıca tekrar ev yapacak para da konmalı.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_83d080dba4c218a5be64866a57435171 = L.circleMarker(
+                [40.49365541841896, 29.761683772156207],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_83d080dba4c218a5be64866a57435171.bindTooltip(
+                `<div>
+                     Deprem çantalarımızı güncelleyelim İçine bir çadır, en az 15 gün yetecek gıda, kıyafet, hijyen malzemesi, 2 arama kurtarma personeli, 1 arama kurtarma köpeği, hilti, ekskavatör ve hemşire koyalım. Bir de tekrar ev yapacak para..#depremler #deprem #istanbuldepremi #depremoldu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f32dadbf092ed526d1f91deb94c6bdaa = L.circleMarker(
+                [41.408580024916844, 29.321617588515927],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_f32dadbf092ed526d1f91deb94c6bdaa.bindTooltip(
+                `<div>
+                     Türkiye’de meydana gelen depremde Özbekistan Acil Durumlar Bakanlığı ekipleri vefalı çalışmalarını sürdürdü. Depremin yedinci gününde arama kurtarma köpeği enkaz altındaki 38 yaşındaki bir kadını buldu.Türkistan'da bir deyim var: Köpek vefadır.. #uzbekistan #uzbekistan🇺🇿 https://t.co/coHojVSbu7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2a5b10ca4cbdcfe5c7bae9f21fbd2de4 = L.circleMarker(
+                [38.21167197050955, 27.07974103813044],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_2a5b10ca4cbdcfe5c7bae9f21fbd2de4.bindTooltip(
+                `<div>
+                     @onurdemirag_ Üç maymunu oynamaya çalışıyorlar   meksikalı arama kurtarma köpeği ptoteonun çeyreği olamadılar bu topluma ne diyelim
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b7953e6b23943f0e7dc4e289fd2cf240 = L.circleMarker(
+                [40.01527311398436, 36.5620971767003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_b7953e6b23943f0e7dc4e289fd2cf240.bindTooltip(
+                `<div>
+                     @eacarer Aziz Millete ve Şerefli Devlete Senin Gibileri Düştüğü İçin Ağlıyor OlabilirYunan Başbakanını Size Tercih Eder Duruma geldik.Varın Halinizi Siz DüşününMeksikalı Arama Kurtarma Köpeği Öldü Diye Üzüldük Hatta Çevremde İsmini Kangal'lara veren Bile OlduSen Ölsen Umrumuzda Olmaz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8c40ce1d0ff9a8b5b5e50002b31f246c = L.circleMarker(
+                [40.31568844784783, 32.473856902530656],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_8c40ce1d0ff9a8b5b5e50002b31f246c.bindTooltip(
+                `<div>
+                     İsveçli arama kurtarma köpeği Killian Türkiye'deki deprem enkazından 17 kişiyi kurtardı ❤ https://t.co/qCI4EK20RE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a391a54984045ff986855af8858b938b = L.circleMarker(
+                [38.38505113811073, 26.63448975758708],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_a391a54984045ff986855af8858b938b.bindTooltip(
+                `<div>
+                     Deprem çantalarını da güncellemek lazım. İçinde mutlaka bir çadır, en az 15 gün yetecek gıda kıyafet, hijyen malzemesi, en az 2 arama kurtarma personeli, 1 arama kurtarma köpeği, hilti, ekskavatör ve hemşire olmalı. Ayrıca tekrar ev yapacak para da konmalı.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bbad09edf78d04a1f309a136d2075d15 = L.circleMarker(
+                [40.84011619629537, 28.932383176137257],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_bbad09edf78d04a1f309a136d2075d15.bindTooltip(
+                `<div>
+                     Meksikalı arama kurtarma köpeği PROTEO'yu hiç unutmayacağız https://t.co/19RyQgW0Ex
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_16262f97c4c19f3cef2ff8a00be4e352 = L.circleMarker(
+                [41.30034927388168, 29.01573660416964],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_16262f97c4c19f3cef2ff8a00be4e352.bindTooltip(
+                `<div>
+                     @gazetesozcu İstanbul itfaiyesi nin de 2 adet kahraman k9 arama kurtarma köpeği görev başındaydı hatta juliet ayağını kesip ufak bir operasyon geçirdi.Ama onları yazmayı unuttunuz galiba !
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2a08d643d06d7da9d52dc9b021cc5c46 = L.circleMarker(
+                [41.03748775048308, 28.45075881407054],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_2a08d643d06d7da9d52dc9b021cc5c46.bindTooltip(
+                `<div>
+                     Türkiye'de deprem bölgesinde çalışırken hayatını kaybeden arama kurtarma köpeği Proteo’nun s.çtığı b.k kadar değeri olmayan dünya kadar insan(!) tanıyorum. Ceza almamak için adlarını açık açık yazamıyorum ama okuyan herkes anladı zaten…
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_91c24f8b1ebae784e0ea23aa4b59eeb0 = L.circleMarker(
+                [41.315402716509794, 29.335838143681514],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_91c24f8b1ebae784e0ea23aa4b59eeb0.bindTooltip(
+                `<div>
+                     @ozguradamTurk Kanal istanbul yapılacagına 100 tane arama kurtarma köpegi yetiştirin..200 tane ısı duyarlı enkaz arayan rontgen cihazı alın..1000 tane Deprem bölgelerine ilk yardım konteyneri koyun.5000 tane yuksek voltajlı projektör alın.5000 tane afad personeli yetistirin.Anladınmı.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_256a57e15fe7b3f7f40e0d8d051680a0 = L.circleMarker(
+                [40.25877175816716, 32.459443367067514],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_256a57e15fe7b3f7f40e0d8d051680a0.bindTooltip(
+                `<div>
+                     Meksika'nın Arama Kurtarma Köpeği Proteo'nun Ölüm Nedeni Belli Olduhttps://t.co/HAvp0FmEne https://t.co/DPpCz1wBbS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_90ec4311f2e89994db094e9be384de98 = L.circleMarker(
+                [41.134077041401675, 39.91904273938132],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_90ec4311f2e89994db094e9be384de98.bindTooltip(
+                `<div>
+                     Kareografide ki güzelliğe bakar mısın müthiş ama en güzeli de Meksika'dan gelen ve ölen arama kurtarma köpeği Proteo'nun da olması müthiş bir detay  👏👏👏🇹🇷🇹🇷🇹🇷🇹🇷🇹🇷 https://t.co/6WLBfjCySY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_927eafa8ce0176aebc26d3713ee7808a = L.circleMarker(
+                [40.96935492227754, 28.623104218782284],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_927eafa8ce0176aebc26d3713ee7808a.bindTooltip(
+                `<div>
+                     @viktorsikr Kıyaslama hiç olmamış, kurtarma köpeği diyorsun, hayat kurtarıyor!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b2bea30fd1709394e70d39cdd8122d63 = L.circleMarker(
+                [41.18622536106269, 29.359700269074363],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_b2bea30fd1709394e70d39cdd8122d63.bindTooltip(
+                `<div>
+                     Bunlarda kurtarma köpeği sadece branş farklı. https://t.co/IQX20FZF23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7c228d544b8c28d03d89f55ffbbc91d1 = L.circleMarker(
+                [38.89450933524527, 35.12203283075098],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_7c228d544b8c28d03d89f55ffbbc91d1.bindTooltip(
+                `<div>
+                     @NevzatNevzatC Bir kurtarma köpeği kadar insanlığa faydası olmayan amipler.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_402795e84f92e1c5a0c177ea715ccec6 = L.circleMarker(
+                [38.1139033433927, 26.502313730159678],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_402795e84f92e1c5a0c177ea715ccec6.bindTooltip(
+                `<div>
+                     Depremde enkazların altından 17 kişiyi kurtaran isveçli arama kurtarma köpeği killian🙏🙏👏👏 https://t.co/a7rbhdR66L
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b58fac19cd15261618040b35e4092dfc = L.circleMarker(
+                [36.508542654114976, 34.546869360965715],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_b58fac19cd15261618040b35e4092dfc.bindTooltip(
+                `<div>
+                     İsveçli arama kurtarma köpeği Killian Türkiye’deki deprem enkazlarından 17 kişiyi kurtardı. https://t.co/fADopcmyjp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7858bc32689af275afddfd716b1d1134 = L.circleMarker(
+                [41.382190486766014, 28.48048923640623],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_7858bc32689af275afddfd716b1d1134.bindTooltip(
+                `<div>
+                     Meksika kurtarma ekibinde olan kurt köpeği enkazda arama yaparken kalp krizinden hayatını kaybetti.🐾🐕🐾😪  Hayvanlara zulmeden işkence eden ey zalim insanlar,  dilerim yıkıntılar altında kalırsınız sizi bir pati can kurtarır. Güle güle proteo    Türkiye seni unutmayacak🐕😪🐾 https://t.co/PNYDsOQI2d
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a9ddba02987a5956fc002c3bebe6bc56 = L.circleMarker(
+                [38.17385318543164, 39.714206590229736],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_a9ddba02987a5956fc002c3bebe6bc56.bindTooltip(
+                `<div>
+                     @Electra1011 İyide göt kılı 190 bin imam neden önceden okumadılar okadar imam bir kurtarma köpegi kadar faydası olmadı
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_580974b8a0bb882e14896989f8ebce82 = L.circleMarker(
+                [41.09610719157103, 29.2176410812574],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_580974b8a0bb882e14896989f8ebce82.bindTooltip(
+                `<div>
+                     Arama kurtarma köpeği kadar bu ülkeye faydası olmayan insanlar çıkıp ona buna suç atıyor...
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_543d8150b216f2ef308214be81b45d95 = L.circleMarker(
+                [40.853950931612786, 29.119587615653803],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_543d8150b216f2ef308214be81b45d95.bindTooltip(
+                `<div>
+                     Meksika ekibiyle gelen hassas burunlu arama kurtarma köpeği ＂Proteo＂ deprem bölgesinde çalışırken enkaz altında kalarak hayatını kaybetti.Kaos için provakatörlük yapan, yalan bilgi yayarak yardımı engelleyen ＂it sürülerinin＂ şu köpek kadar değeri yok.👇 https://t.co/lFwOVwzqnl
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5e7b69377061c3a4aeb9f0d932a61fae = L.circleMarker(
+                [38.45927185927221, 34.72169317253188],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_5e7b69377061c3a4aeb9f0d932a61fae.bindTooltip(
+                `<div>
+                     @uluser Tabii ki kurtarma köpeği zaten her zaman köpekler bazı iki ayaklılar dan daha yararlı
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2f644179602ecf0e10a187f5302facda = L.circleMarker(
+                [40.83733155817359, 29.290357021764535],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_2f644179602ecf0e10a187f5302facda.bindTooltip(
+                `<div>
+                     Barınaklardaki köpekler neden özel eğitim ile arama kurtarma köpeği olarak yetiştirilmez ki 🤔#Proteo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0d8dea05581c94cbfc6abb0b80e12f41 = L.circleMarker(
+                [40.986209318448324, 28.857578763844753],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_0d8dea05581c94cbfc6abb0b80e12f41.bindTooltip(
+                `<div>
+                     @rteaylaaksu Bunları versek yerine kac kurtarma köpeği eder.. Dur dur ben cevap vereyim hiçbir köpeğin kedinin tüyü etmez... https://t.co/CtTcbfofHJ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ee6945243b2aa6dc4dd1ce7e8afff4d2 = L.circleMarker(
+                [41.28334845794994, 29.213272344554902],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_ee6945243b2aa6dc4dd1ce7e8afff4d2.bindTooltip(
+                `<div>
+                     @SunaVarol_ Ne diyorsunuz siz hiç arama kurtarma köpeği ile bu şahıs kiyaslanabilirmi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_11867f3b23836d4e4b545cd9a21dccda = L.circleMarker(
+                [40.01115392571064, 39.794058369089065],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_11867f3b23836d4e4b545cd9a21dccda.bindTooltip(
+                `<div>
+                     Macaristan kurtarma ekibinin başında olan bu kız Macaristan Başbakanının kızı arama kurtarma için gelmişler çalışmışlar köpeği ile.SAHİ BİZİMKİLER NERDE....... https://t.co/Eiy7MJw7Xq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f798a118205937dc839fbf48b5e5176a = L.circleMarker(
+                [41.486001029936894, 28.76815178382377],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_f798a118205937dc839fbf48b5e5176a.bindTooltip(
+                `<div>
+                     Deprem bölgesinde görev alan ve görevini layıkıyla yerine getiren, bölgeye yardımlarını esirgemeyen her kim varsa  sonsuz teşekkür ederiz.. Dünya iyi insanların sayesinde dönüyor.. Bir not da arama kurtarma köpeği PROTEO seni unutmayacağız..🙏🙏🙏🙏#Proteo#DEPREMZEDELER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_500883baf250e2c65c4f3459759be2dc = L.circleMarker(
+                [38.16534185037256, 27.710036518746488],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_500883baf250e2c65c4f3459759be2dc.bindTooltip(
+                `<div>
+                     Bu adamı Japonya'ya verip yerine arama kurtarma köpeği alalım. https://t.co/qd4ztQkfnZ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9987f5a7e6778d82aa801dec7558bb20 = L.circleMarker(
+                [40.52603876223081, 29.385861732405015],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_9987f5a7e6778d82aa801dec7558bb20.bindTooltip(
+                `<div>
+                     Proteo’nun nezdinde, Ankara Büyükşehir Belediyesi arama kurtarma köpeği Çakıl ve Rüzgar’a, İstanbul Büyükşehir Belediyesi arama kurtarma köpeği Gofret’e ve sahada insanlar kadar çaba gösteren K9 Polis köpeklerine sonsuz teşekkürler…Minnettarız… ❤️#PatiliDostlar https://t.co/1fYDTHCFOg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6301977ea23038484fcbbd392dec5d30 = L.circleMarker(
+                [40.452980802323275, 29.550241911086488],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_6301977ea23038484fcbbd392dec5d30.bindTooltip(
+                `<div>
+                     Ümit Özdağı japonyaya verip yerine 10 tane arama kurtarma köpeği alsak iyi olur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9a6fa6dda12cc3094dcc0162a30a369e = L.circleMarker(
+                [41.06989785686278, 28.884293476134374],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_9a6fa6dda12cc3094dcc0162a30a369e.bindTooltip(
+                `<div>
+                     @gencamasyali_05 Bu köpek proteo değil Sarıyer belediyesi arama kurtarma köpeği Şilan hala sahada ve hayat kurtarıyor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5e943bf6b52c34c9bb80a47477af3c99 = L.circleMarker(
+                [38.442493169890504, 27.19538431049633],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_5e943bf6b52c34c9bb80a47477af3c99.bindTooltip(
+                `<div>
+                     Memlekete kurtarma köpeği kadar faydası dokunmamış ama fikir beyan edebiliyor. Sorsan düşünce özgürlüğü. Aynısını cumhur ittifakından birine söyle bakalım neler oluyor hep birlikte görelim.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_133a8b62b0913d3a477b949cce301a01 = L.circleMarker(
+                [38.6603141134715, 34.42857705262865],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_133a8b62b0913d3a477b949cce301a01.bindTooltip(
+                `<div>
+                     Zafer Partisi genel başkanı @umitozdag ‘ı doğduğu yer Japonya’ya gönderelim karşılığında Japonya’dan arama kurtarma köpeği talep edelim
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e72166ed978d711c4fb0bcac604c770 = L.circleMarker(
+                [41.473571850570956, 28.52279643862916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_1e72166ed978d711c4fb0bcac604c770.bindTooltip(
+                `<div>
+                     #Meksika'dan #Türkiye'ye can kutarmaya gelen arama kurtarma köpeği #Proteo  sana çok şey  borçluyuz daima anilacaksın 🇹🇷♥️🐾#ahbab #deprem https://t.co/y5epSo9DSF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e5f0a88f7f389b9908c3a8048ba1ce6 = L.circleMarker(
+                [39.66173568399217, 33.220046913054695],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_1e5f0a88f7f389b9908c3a8048ba1ce6.bindTooltip(
+                `<div>
+                     İki kişinin enkazdan sağ çıkmasını sağlayan Meksika ordusunun arama kurtarma köpeği Proteo çalışmalar sırasında çöken enkazın altında kalarak hayatını kaybetti.Proteo, bu topraklar sana minnettar.. Huzur içinde uyu 😢#Proteo https://t.co/1HjGFQvnVF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a0477118cf0ebec5ec0e13ad918b0915 = L.circleMarker(
+                [40.21100955332647, 32.40582183529397],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_a0477118cf0ebec5ec0e13ad918b0915.bindTooltip(
+                `<div>
+                     İnsanımız gibi köpeklerimiz de garip, soldaki yabancı arama kurtarma köpeği...Bizim kopeklerimizde koruma olmadığı için patileri hep parçalanmış ne yazık ki....#Jandarma #egm #afad #ahbab https://t.co/nVM3JRBm0Z
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_97a5f4acc1505459fe2b209a04e78619 = L.circleMarker(
+                [41.47973713785451, 27.801336550967655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_97a5f4acc1505459fe2b209a04e78619.bindTooltip(
+                `<div>
+                     @ademtekin54 @Zikrettinnn @HaytapOfficial @hacikodernek @ahbap @ankarapatilikoy Meksika'dan kurtarma ekibiyle  hayat kurtarmak için ülkemize gelen Kurt Köpeği enkazdan can kurtarırken kalp krizinden öldü❗🐾Dikkat ette seni yemesinler❗Allah kalbinize vjdan merhamet versin  emi 🤲❗bu depremler niye oluyor diye hiç düşündün mü acaba? İstersen biraz düşün. https://t.co/6ydzjsZs4u
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f80c19150e8952e0e4c52fab38d9a83d = L.circleMarker(
+                [40.60906385842466, 29.8784000330605],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_f80c19150e8952e0e4c52fab38d9a83d.bindTooltip(
+                `<div>
+                     #Meksika'dan gelen arama-kurtarma köpeği #Proteo yaşamını yitirdi #Türkiye #KahramanMaraş #Pazarçık #Dünya #AmerkaMaraş merkezli #Deprem'lerin ardından arama kurtarma çalışmalarına katılmak için Meksika’dan gelen ekibin köpeği Proteo hayatını kaybetti.https://t.co/Noh1MNN4Vm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7314d426480528ae05cb089907a33558 = L.circleMarker(
+                [36.84749971764839, 37.1791053673861],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_7314d426480528ae05cb089907a33558.bindTooltip(
+                `<div>
+                     @umitozdag Sen dünyanın en kalitesiz adamısın imkan olsa seni japonyaya verir 1 tane arama kurtarma köpeği alırım…
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bc055eb63a5e8209e875f967e0d61243 = L.circleMarker(
+                [41.33680505440725, 28.160914405644647],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_bc055eb63a5e8209e875f967e0d61243.bindTooltip(
+                `<div>
+                     @sinanpnchv Bak arkadaşım, devlet benim en kutsalım eğer ki devlet böyle bir felakette 72 saatte bile güveliği sağlayamıyor sa sıkıntı vardır. Bu gün devlet kurumlarında liyakat denilen kural işletilseydi bu gün bunları çok az konuşurduk.Duydum Meksika arama kurtarma ekibinin köpeği enkazda+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_76495a4c51166d4c5863cac24e70f040 = L.circleMarker(
+                [41.433360451472055, 36.35846079731662],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_76495a4c51166d4c5863cac24e70f040.bindTooltip(
+                `<div>
+                     Meksika'dan Türkiye'ye gönderilen arama kurtarma köpeği Proteo, hayatını kaybetti. https://t.co/3abhRF7c9R
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5e56292d4082fe345053cdde58c0a038 = L.circleMarker(
+                [37.175022966270454, 30.726735867708072],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_5e56292d4082fe345053cdde58c0a038.bindTooltip(
+                `<div>
+                     Hoşçakal Proteo kurtardığın canlar için sana minnettarız. Arama kurtarma köpeği Proteo kurtarmak için girdiği enkazın çökmesi üzerine hayatını kaybetti 🙏😔❤️ https://t.co/03o8e4AD5C
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8f8bed81df876249bda8af7297d35c83 = L.circleMarker(
+                [40.72862298721324, 35.82990211973582],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_8f8bed81df876249bda8af7297d35c83.bindTooltip(
+                `<div>
+                     Meksikadan gelen arama kurtarma köpeği Proteo hayatını kaybetmiş. Sana yardımların için minnettarız.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_66b9f54e0c0b1a84e806002151a8dc82 = L.circleMarker(
+                [41.07954892781904, 28.617421421669253],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_66b9f54e0c0b1a84e806002151a8dc82.bindTooltip(
+                `<div>
+                     Meksika’dan gelen arama kurtarma köpeği Proteo, Türkiye’de deprem bölgesinde çalışırken enkaz altında kalarak can vermiş…Sağolasın Proteo 🙏
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_60c8c95165b37758c699bb2719300534 = L.circleMarker(
+                [41.29080490049722, 28.738461983458585],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_60c8c95165b37758c699bb2719300534.bindTooltip(
+                `<div>
+                     ADİOS PROTEO😢😢Meksika Arama Kurtarma Köpeği Proteo; enkaz altında kalıp hayatını kaybetti❤️🐶😻seni yaradana kurban olurum😢😢#aramakurtarma #kurtarmaköpeği #meksikakurtarmaköpekleri #deprem https://t.co/2SWfvWNoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_410cb7d2667018318e5d3ee34b3caefe = L.circleMarker(
+                [36.24296456645533, 31.435960497760544],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_410cb7d2667018318e5d3ee34b3caefe.bindTooltip(
+                `<div>
+                     Proteo 😔Kurtarma köpeği 2 insanı kurtarmaya çalışırken öldü https://t.co/Uvpb6fwowq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_709c8886e54242c1036f7167b38c4282 = L.circleMarker(
+                [40.360235608514124, 32.23353481284448],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_709c8886e54242c1036f7167b38c4282.bindTooltip(
+                `<div>
+                     Meksika’dan gelen kurtarma ekibinin  köpeği Proteo insan kurtarırken ölmüş.Çok üzüldüm. https://t.co/a6f8sA3WO7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8366b782f3ff0a9d9953e4ef3b36782a = L.circleMarker(
+                [40.91161456368632, 39.41067132236387],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_8366b782f3ff0a9d9953e4ef3b36782a.bindTooltip(
+                `<div>
+                     Hırsızlık ve yağma yapanları Çin'e verip yerine arama kurtarma köpeği alsak olur mu?
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c26687648dfe1c52e0b830f8c6f670af = L.circleMarker(
+                [40.85113020420305, 29.316627759598557],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_c26687648dfe1c52e0b830f8c6f670af.bindTooltip(
+                `<div>
+                     Ülkemizde yaşanan #deprem sebebi ile Meksika arama kurtarma köpeği Proteo için tören düzenlendi.İSuriyelilerde deprem bölgesine gitmek isteyenlere Özel izin çıkardı.Mahkumların anayasal hakkı olanİzinleri kullandırılmıyor?Adalet Bakanı Bekir Bozdağ#MahkumlaraDepremİzni https://t.co/RVDsqgvaJ8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d88786dc986792e9daa263745e8a6760 = L.circleMarker(
+                [41.13977722452884, 29.047312180779507],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_d88786dc986792e9daa263745e8a6760.bindTooltip(
+                `<div>
+                     Arama kurtarma çalışmalarına katılmak üzere Meksika'dan Türkiye'ye getirilen arama kurtarma köpeği Proteo, enkaz çalışmalarında hayatını kaybetti. https://t.co/X1M8jgyaaq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eb35e36d1c930ffa621bdbbc58a816ae = L.circleMarker(
+                [39.96158908220786, 42.67017965056599],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_eb35e36d1c930ffa621bdbbc58a816ae.bindTooltip(
+                `<div>
+                     This Tweet from @rabiakbuluut has been withheld in France based on local law(s). Learn more.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e8dddd24814a519e9f7869f03751a36d = L.circleMarker(
+                [41.28756949708598, 28.90110116744007],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_e8dddd24814a519e9f7869f03751a36d.bindTooltip(
+                `<div>
+                     Meksika'da gelen arama kurtarma köpeği preteo enkazda kalarak ölmüş. Bu ülkeye faydan oldu huzur içinde uyu proteo ♥️ https://t.co/qxUHZrbCaE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7c34725bcec503a093e2892b978f874f = L.circleMarker(
+                [40.5021780107857, 28.708334152164554],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_7c34725bcec503a093e2892b978f874f.bindTooltip(
+                `<div>
+                     Meksika arama kurtarma köpeği  PROTEO’yu maalesef kaybetmişiz https://t.co/dioZHi7Rfk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e49afe316945e8a6aff03f87ff27ec3e = L.circleMarker(
+                [36.912705299053535, 34.63241843732794],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_e49afe316945e8a6aff03f87ff27ec3e.bindTooltip(
+                `<div>
+                     Deprem enkazlarında çalışması için Meksika'dan Türkiye'ye gönderilen arama kurtarma köpeği Proteo, hayatını kaybetti. https://t.co/mukVbzVSUt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8736eb8eea83c0059c1418b8c16d5f12 = L.circleMarker(
+                [36.62940800830228, 34.52317142955289],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_8736eb8eea83c0059c1418b8c16d5f12.bindTooltip(
+                `<div>
+                     Arama kurtarma çalışmalarına katılmak üzere Meksika'dan Türkiye'ye getirilen arama kurtarma köpeği Proteo, enkaz çalışmalarında hayatını kaybetti.#acildeprem #SONDAKIKA #depremzede https://t.co/dxu6Jy1EvP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6c9187ba673853cd34402c9f123d1a78 = L.circleMarker(
+                [36.10870568462355, 36.66000872014613],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_6c9187ba673853cd34402c9f123d1a78.bindTooltip(
+                `<div>
+                     Arama kurtarma çalışmalarına katılmak üzere Meksika'dan Türkiye'ye getirilen arama kurtarma köpeği Proteo, enkaz çalışmalarında hayatını kaybetti.#deprem https://t.co/4TGlzu3uL4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a3e9ca22712db3264cd6533da498e583 = L.circleMarker(
+                [41.077922704033554, 28.961230554112532],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_a3e9ca22712db3264cd6533da498e583.bindTooltip(
+                `<div>
+                     Meksika'dan gelen arama kurtarma köpeği Proteo enkaz altında kaldı 🖤 Ekiplerin yoldaslarına nasıl saygı duruşunda bulunduğunu izleyin... Sen bizim evladımızsın artık Proteo #Proteo #Mexico #GraciasProteo https://t.co/XAPrUwhS33 https://t.co/EfHj0Ev3jv
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_02e6336f850fa248086d438407e9df11 = L.circleMarker(
+                [40.029250677151445, 32.41170373332834],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_02e6336f850fa248086d438407e9df11.bindTooltip(
+                `<div>
+                     SENI UNUTMAYACAGIZ.CAN DOSTUMUZ❤.🦮❤Meksika'dan Türkiye'ye gönderilen arama kurtarma köpeği Proteo, hayatını kaybetti. Melek oldun ❤🙏🏻🥺 https://t.co/lc8SivexIh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f8a7fb6ba9f85ad9eab8531e4a626096 = L.circleMarker(
+                [39.83490367119625, 29.529758911552864],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_f8a7fb6ba9f85ad9eab8531e4a626096.bindTooltip(
+                `<div>
+                     #Kahramanmaraş #Göksun'da #deprem'den sonra yolu kapanan köye gitmeye çalışan Konyaaltı Belediyesi yardım ve kurtarma ekiplerine, köyün köpeği yolu gösterdi. Ekip, köpeğin rehberliğinde köye ulaştı.Bir köpek kadar şu ülkeye millete faydası olmayanlar utanarak izler belki. https://t.co/vTi0zLJwt0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f05c6a618858f3b209200d8334a0c917 = L.circleMarker(
+                [41.59141848848003, 36.31273670835398],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_f05c6a618858f3b209200d8334a0c917.bindTooltip(
+                `<div>
+                     @TarotLorelei KİŞİLİK BİR AİLE VAR!!!600 konutlar 9.blok acil arama kurtarma köpeği lazım.Dün öğlene kadar sesleri geliyordu vücut ısıları hala tespit edilebiliyor ama yerlerini bulamıyorlar nolur yalvarırım yayınUlaşabilirseniz 0505 018 4931 bu numaradan Kenan Aslana ulaşabilirler#hatay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1f5b26242b6d75fa340f4819b1bd3b9a = L.circleMarker(
+                [36.40687390615513, 36.18077864141656],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_1f5b26242b6d75fa340f4819b1bd3b9a.bindTooltip(
+                `<div>
+                     Tüm ekipmanlar ve @kadikoybelediye’nin kurtarma köpeği geldi. Ancak umutlar tükenme noktasında. Aile “en azından cenazelerimizi alalım” dedi.İddialarına göre AFAD, “çok riskli” diyerek gittikten birkaç saat sonra 4 insan, 2 köpek çıkarmışlar madenciler ve gönüllülerle el ele https://t.co/o5usEhz2vq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_871e00ffe7d3dcc184f4e33bef0caaac = L.circleMarker(
+                [39.9157275495473, 33.21788266797563],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_871e00ffe7d3dcc184f4e33bef0caaac.bindTooltip(
+                `<div>
+                     Arama kurtarma köpeği VONBİR de Hatay’da. Vonbir 11 vatandaşımızın hayata dönmesine vesile oldu. Konya ekiplerimiz gece 03.00 itibariyle 166 canlı vatandaşımızı enkaz altından çıkardı. Sağolsunlar. https://t.co/YYQDkgZyYs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3d131275f042e1281a6f5e654780cd6e = L.circleMarker(
+                [41.41331491667554, 36.900582141449156],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_3d131275f042e1281a6f5e654780cd6e.bindTooltip(
+                `<div>
+                     @yyeppudaa__ KİŞİLİK BİR AİLE VAR!!!600 konutlar 9.blok acil arama kurtarma köpeği lazım.Dün öğlene kadar sesleri geliyordu vücut ısıları hala tespit edilebiliyor ama yerlerini bulamıyorlar nolur yalvarırım yayınUlaşabilirseniz 0505 018 4931 bu numaradan Kenan Aslana ulaşabilirler#hatay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_396c39b83068df9dca1eefbd0d699ae0 = L.circleMarker(
+                [39.42448875184756, 32.82030417913574],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_396c39b83068df9dca1eefbd0d699ae0.bindTooltip(
+                `<div>
+                     @ovgunaercan Sallama hocam her köpek arama kurtarma köpeği olmaz 100 kopekden belki biri oda cins olcak yavru olcak .eğitim gerektirecek.sen prof sun bunları aradtiripta konusmalisin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7fe07c60e97bd174895b3d7c0e0a0999 = L.circleMarker(
+                [40.887844052907106, 29.22161557255889],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_7fe07c60e97bd174895b3d7c0e0a0999.bindTooltip(
+                `<div>
+                     Kahramanmaraş Göksun'a giden karlı yolda Konyaaltı belediyesi kurtarma ekiplerine rehberlik yapan o güzel köpeği buradan öpüyor, kucaklıyoruz. Varsa bu kahramanın resmini de paylaşabilir misiniz? @konyaaltibld
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a5f3a91478b3efb56587ef2372deff81 = L.circleMarker(
+                [41.262003487330226, 36.20872800235751],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_a5f3a91478b3efb56587ef2372deff81.bindTooltip(
+                `<div>
+                     @Desertrosesta KİŞİLİK BİR AİLE VAR!!!600 konutlar 9.blok acil arama kurtarma köpeği lazım.Dün öğlene kadar sesleri geliyordu vücut ısıları hala tespit edilebiliyor ama yerlerini bulamıyorlar nolur yalvarırım yayın 7.gündeyiz çok kritik#hatay @ahbap @haluklevent @OguzhanUgur @AFADBaskanlik
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c00d4e844aa8e0ce93999d441978240 = L.circleMarker(
+                [41.42932992701631, 36.85132942439753],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_0c00d4e844aa8e0ce93999d441978240.bindTooltip(
+                `<div>
+                     @imdckyun KİŞİLİK BİR AİLE VAR!!!600 konutlar 9.blok acil arama kurtarma köpeği lazım.Dün öğlene kadar sesleri geliyordu vücut ısıları hala tespit edilebiliyor ama yerlerini bulamıyorlar nolur yalvarırım yayınUlaşabilirseniz 0505 018 4931 bu numaradan Kenan Aslana ulaşabilirler#hatay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6f9f52b419ab9650d57573a04b4ec28b = L.circleMarker(
+                [38.00235836792576, 36.93220027379602],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_6f9f52b419ab9650d57573a04b4ec28b.bindTooltip(
+                `<div>
+                     Enkazda 150 kişiye sağ salim ulaşmamızı sağlayan İHH Arama Kurtarma Köpeği Patron neşesiyle bizlerin yüzünü güldürüyor. İyiki varsın Patron. #depremzede #kahramanmaraş https://t.co/20AfOyKVTJ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_12132b9bfed40ba745c63f9f10aeac27 = L.circleMarker(
+                [41.10802550437494, 29.03188532482777],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_12132b9bfed40ba745c63f9f10aeac27.bindTooltip(
+                `<div>
+                     @TilkiAndre35 @fahribozgeyik @yavuzagiraliog Ayrıca kurtarma köpeği eğitmenidir @OnsenArzu . Hani enkazdan canlı bulan köpekleri eğitir. Yabancı ekiplere de tercümanlık yaptı günlerce. Enkazda ki arama kurtarmaya ara verdiğinde çorba sırasına girdi. Sense twit atarak ülkeyi kurtardığını zanneden zavallının tekisin.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_797a778be47eba7c7c551b2feb2d511f = L.circleMarker(
+                [41.404950192393855, 28.52052658290949],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_797a778be47eba7c7c551b2feb2d511f.bindTooltip(
+                `<div>
+                     @emre__ozturk78 Az önce manyagin teki ＂ sokak kopeginden arama kurtarma köpeği olmaz＂ dedim diye saldirdi bana.Engelledim deliyi!Bu Ahmet Ercan ＂ sokak kopeklerini oldureceginize arama kurtarma köpeği yapin＂ yazmış ta!Çok boş beleş isler...
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_84fce355152da5516de96743922d5edb = L.circleMarker(
+                [41.327801391959866, 28.841215121886105],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_84fce355152da5516de96743922d5edb.bindTooltip(
+                `<div>
+                     @Ahmetttoooo @ovgunaercan @oceanfille Sokak köpeklerinden nasıl arama kurtarma köpeği yapılacak onu da anlatıver bari.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c57c9ed92b8c06a392d0126a92eb0189 = L.circleMarker(
+                [40.82174874633847, 28.50437461298852],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_c57c9ed92b8c06a392d0126a92eb0189.bindTooltip(
+                `<div>
+                     @ovgunaercan Dalga geçtiğinizi düşünmeye başlıyorum artık!Sokak köpeğinden kurtarma köpeği mi olur?Siz hiç kurtarma köpeklerinin cinsini ve eğitim sürecini araştırdınız mı peki?Keşke söylendiği gibi kolay olsa!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6b83b19ff766c3fcdb8d4a5685707e64 = L.circleMarker(
+                [41.18274189200811, 29.38238184858776],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_6b83b19ff766c3fcdb8d4a5685707e64.bindTooltip(
+                `<div>
+                     @sudesaw21 @alpaysalt @ovgunaercan Yahu sırf muhalefet olacağım diye yazmıyormusunuz!Adam öldürülsün mü yazmış?Sokak köpeğinden kurtarma köpeği olmaz demiş!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fe9b3369d7ff4d7366997fc623e43f1b = L.circleMarker(
+                [36.27399938577393, 36.06592377389196],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_fe9b3369d7ff4d7366997fc623e43f1b.bindTooltip(
+                `<div>
+                     Can kayıplarımız canımızı yakmaya devam ederken kurtarılan her bir canla bir nebze ferahlayıp avunmaya çalışıyoruz… Kırıkhan'daki arama kurtarma çalışmalarımız sırasında ekiplerimiz bir köpeği enkazın altından 6 gün sonra sağ olarak çıkardı. https://t.co/bsqqKwM7Pk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_31f8f911f65d455f885de638c23a60a4 = L.circleMarker(
+                [40.49653347289951, 29.28092151069873],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_31f8f911f65d455f885de638c23a60a4.bindTooltip(
+                `<div>
+                     @XilourisEfe 3.5 yıl önce İstanbul'da AFAD eğitimi aldığımda 10 civarı kurtarmacı köpekle tanıştırdılar. Çok zorlu bir eğitim ve uluslararası sertifikalandırma var. Polis köpeği eğitimi kolay nispeten. Kurtarma köpeği sayısı az o yüzden. AFAD isteyene kendi köpeği için de eğitim verebiliyor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b913d48c5762120b6f63c12849ca85be = L.circleMarker(
+                [41.84699265224002, 32.0899224141464],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_b913d48c5762120b6f63c12849ca85be.bindTooltip(
+                `<div>
+                     Ne yazık ki ülkemde bir kurtarma köpeği kadar değeri olmayan, para için her şeyi yapanlar var!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_34a7a08ede718ed300db50eb69443c2f = L.circleMarker(
+                [41.17223632841715, 28.59494328647307],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_34a7a08ede718ed300db50eb69443c2f.bindTooltip(
+                `<div>
+                     Sizi kurtarmaya gelen insanlara İngiliz uşağı dedin şimdi bahane mi arıyorsun bir arama kurtarma köpeği kadar faydan yok utanmaz kadın https://t.co/0jTm1pDEuU
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30a2346fee7d16b136196cf7514a7881 = L.circleMarker(
+                [40.74481250391586, 29.29511129094159],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_30a2346fee7d16b136196cf7514a7881.bindTooltip(
+                `<div>
+                     -mesela ben isterim ki her mahalleye 1 arama kurtarma köpeği olsun, gerekirse sponsor oluruz o köpeklere -bilim adamlarına kulak verin lütfen bunun sonuclarını tabi ki tek sizin üstlenmeniz mümkün değiş o sebeple bizi de organize edin @kadikoybelediye @serdildara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f27eb11afe08a0856856b7f878b8d263 = L.circleMarker(
+                [40.53902648505605, 28.86416793321984],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_f27eb11afe08a0856856b7f878b8d263.bindTooltip(
+                `<div>
+                     Elbette ki her köpek arama kurtarma köpeği olamaz, ama barınaklardan mutlaka çıkar olabilecek köpekler! Var aklımda bişey inşallah işin uzmanlarına ulaşabilirim biraz sakinleyince .. https://t.co/ywa85s95Bh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a9f32ae9960c9d809fcbba3230119459 = L.circleMarker(
+                [38.47111461542895, 35.359145594587815],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_a9f32ae9960c9d809fcbba3230119459.bindTooltip(
+                `<div>
+                     @ovgunaercan Uzun bir eğitimden sonra ve çok az sayıda köpek arama kurtarma köpeği olabiliyor. Siz başıboş köpeklerin saldırdığı insan ölülerimizden haber verin. Başıboş sahipsiz köpek olmaz.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26382ecb07972d8819ac9f3fee858fa4 = L.circleMarker(
+                [40.8669704077507, 29.396510856835587],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_26382ecb07972d8819ac9f3fee858fa4.bindTooltip(
+                `<div>
+                     Arama kurtarma köpeği Tetik tek başına Samandağ'da 15 can kurtardı.BU KÖPEK KADAR OLAMAYAN İNSANLAR VAR BU ZAMANDA #ahbab#polis#depremzede #OrtaSayfa #idam #yagma https://t.co/EEec1koJ1C
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6e255870723371d850101c0ad8bc5f08 = L.circleMarker(
+                [40.30388699573853, 33.3920050362005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_6e255870723371d850101c0ad8bc5f08.bindTooltip(
+                `<div>
+                     Avusturya 🇦🇹 arama kurtarma ekibinin köpeği göçük üzerinde tepki veriyor ve içeride bir canlı var mı diye enkazın içine giriyor @bundesheer.online https://t.co/gVbK141cfQ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_583352fb69755b1fc7a2566fcbcfaf1f = L.circleMarker(
+                [41.19068971848261, 29.281958361403092],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_583352fb69755b1fc7a2566fcbcfaf1f.bindTooltip(
+                `<div>
+                     İspanyol Arama-Kurtarma köpeği.Coğrafya,onlar için de kader…#KurtarmaKöpeği #Deprem https://t.co/esNJ69f6i0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e33bcd9262b71442fce4d306fc783bde = L.circleMarker(
+                [40.96757954741858, 29.36749156193261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_e33bcd9262b71442fce4d306fc783bde.bindTooltip(
+                `<div>
+                     Arkadaşım için Arama Kurtarma Köpeği lazımFatih'in eşyaları bulundu fakat evinde çıkmadı.Lütfen gerekli kişileri etiketleyerek ve rtleyerek destek olun 🙏adres:Hatay-Antakya Ekinci Mahallesi Şehit Bilgin Sokak Atilla Eren Apartmanı#ACİL #AFAD #Hatay #DepremAcil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3f52d9c5b70c710191b0d45fffbb24ab = L.circleMarker(
+                [37.8997002396058, 33.20109219732959],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_3f52d9c5b70c710191b0d45fffbb24ab.bindTooltip(
+                `<div>
+                     Ülkede yaşayıp şu zamanda bu ülkeye bir arama kurtarma köpeği kadar faydası olmayan insanlar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b99fd3428145011590108bae192d1dc3 = L.circleMarker(
+                [37.6459594334637, 41.018610381501674],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_b99fd3428145011590108bae192d1dc3.bindTooltip(
+                `<div>
+                     @berkcandogan Yawww böyle bir günde susun barı sen ve senin gibilerin bir kurtarma köpeği kadar deyerınız ve faydanız yok bu ülkeye 🤮🤮🤮🤮🤮🤮
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ede0abddd16dbf40e7200797c51a64de = L.circleMarker(
+                [38.60112167581478, 37.88555749716394],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_ede0abddd16dbf40e7200797c51a64de.bindTooltip(
+                `<div>
+                     Malatyalı depremzede, av köpeği ＂Alex＂ ile kurtarma çalışmalarına katılıyor https://t.co/YlbQT9gnMF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0d4dab5791347d349075f41710f0e38c = L.circleMarker(
+                [39.61153526641283, 33.06445872532864],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_0d4dab5791347d349075f41710f0e38c.bindTooltip(
+                `<div>
+                     @cenkbilgee Alakasız https://t.co/H4H7yK38eO ankaradan gönüllü gittik ekipmanımız hilti,jeneratör ,kamera ,makas .Adamlar profesyonel ve son teknoloji ile donattığı ekiplerini yolluyor.Arama kurtarma köpeği dahil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_474815b01fbb01da1ed11d9d61d2c911 = L.circleMarker(
+                [40.805087103287796, 28.52717163211834],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_474815b01fbb01da1ed11d9d61d2c911.bindTooltip(
+                `<div>
+                     İkinci bir Yunan kurtarma ekibinin Türkiye'ye doğru yola çıkmış. Ekip, 15 itfaiyeci, 2 kurtarma köpeği, 3 doktor ve moloz atık konusunda uzmanlaşmış 1 İtfaiye mühendisinden oluşmaktadır.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bb041ac953c1fa7b7708cee59d773dd7 = L.circleMarker(
+                [37.48581126434864, 38.88238908627767],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_bb041ac953c1fa7b7708cee59d773dd7.bindTooltip(
+                `<div>
+                     Yunanistan, ikinci bir kurtarma ekibinin Türkiye'ye doğru yola çıktığını duyurdu.Ekip, 15 itfaiyeci, 2 kurtarma köpeği, 3 doktor ve moloz atık konusunda uzmanlaşmış 1 İtfaiye mühendisinden oluşuyor.#Deprem #Kahramanmaraş #Adıyaman #Diyarbakır #Malatya #Hatay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0bd106f29dbb2d4aa9e4915248a55218 = L.circleMarker(
+                [41.30249692542648, 29.12993326256316],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_0bd106f29dbb2d4aa9e4915248a55218.bindTooltip(
+                `<div>
+                     200 bin trol'ün, 1 tane arama kurtarma köpeği kadar faydası oldu mu?
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f855429c0780ea9cd003fe3e430f391b = L.circleMarker(
+                [38.732009696455, 38.14923064177099],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_f855429c0780ea9cd003fe3e430f391b.bindTooltip(
+                `<div>
+                     Fransa Arama Kurtarma Ekibi ve köpeği Malatya’da !  #deprem #malatyadeprem https://t.co/23EALodSKK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a1cc4d554e5e045b0da0bcdfb16e4ac7 = L.circleMarker(
+                [41.31465352241956, 28.528004187204402],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_a1cc4d554e5e045b0da0bcdfb16e4ac7.bindTooltip(
+                `<div>
+                     @DIBAliErbas Cenazeci teşkilatı. Yerden bir taşmı aldınız kenara atmak için yanınızda kazma kürekmi var nini ile milleti manipule etmek için imam ordusunu alıp geliyorsun. 1 tane Kurtarma köpeği kadar faydanız varmı? Sırtımızda kambur oldunuz sktrip gideceksiniz.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_223a451675ce7ee51f595d68f399fdb1 = L.circleMarker(
+                [39.81476668090277, 29.32345872191302],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_223a451675ce7ee51f595d68f399fdb1.bindTooltip(
+                `<div>
+                     Deprem bölgesinde olan bir ülkenin eğitilmiş arama kurtarma köpeği olmaz mı? Çok acı https://t.co/gy40zDpdVO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_70c971849d9feaf80ee63a1f8b7a040e = L.circleMarker(
+                [39.87762688729126, 41.03708830317046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_70c971849d9feaf80ee63a1f8b7a040e.bindTooltip(
+                `<div>
+                     @__KESAFET64__ Bazılarının bu ülkeye arama kurtarma köpeği kadar faydası yok.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_de339d088d27bda57113bb72b5973e69 = L.circleMarker(
+                [40.63084843191351, 29.086256678357806],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_de339d088d27bda57113bb72b5973e69.bindTooltip(
+                `<div>
+                     @ismailkkilinc Arama kurtarma köpeği imamdan daha faydalı diyen sözde bilim adamı bile vardı. https://t.co/HM1jFmXLV5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7830fe612b1579dce7659e1f3b27d743 = L.circleMarker(
+                [37.2152589344092, 27.257980315481607],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_7830fe612b1579dce7659e1f3b27d743.bindTooltip(
+                `<div>
+                     @hkizilaslan Bu zihniyetteki insanların, bir arama kurtarma köpeği kadar insanlığa faydası yok.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d90d95806fadd38f97892434ac91f4d4 = L.circleMarker(
+                [38.64696931262221, 27.266836766367785],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_d90d95806fadd38f97892434ac91f4d4.bindTooltip(
+                `<div>
+                     Dinî tüm vakıf, kurum ve cemaatler, bir tane arama kurtarma köpeği kadar katkınız yok şu dünyaya. https://t.co/7AtWMxM6Id
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_65a32c294b2cb9671208f3b0ba52d6c7 = L.circleMarker(
+                [41.2408807741468, 28.842753118845735],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_65a32c294b2cb9671208f3b0ba52d6c7.bindTooltip(
+                `<div>
+                     @mrtkarakoyun87 @dfdsmed @DenizKuvvetleri Hiç geç kalmadılar, ilk saatlerde DFDS’ye ait 5 adet arama kurtarma köpeği bölgeye sevk edildi birçok kişi enkaz altından kurtarıldı bu sayede. Ayrıca gemi özelinde de organizasyonları var yetkililerke koordinasyon halindeler.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_78135f21f26e390efd1a6ee9cedc9757 = L.circleMarker(
+                [38.765295852888464, 27.968074835123335],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_78135f21f26e390efd1a6ee9cedc9757.bindTooltip(
+                `<div>
+                     @ibrahimkaragul Ya Bi siktirin gidin Allah aşkına millet canıyla uğraşıyor devlet yetersiz kalmış bu gözle görülebilen bisey savunduğunuz zihniyette sizlerde yerin dibine girin bir daha çıkmayın memlekete arama kurtarma köpeği kadar faydası olmayan asalak surulerisiniz yerin dibine girin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3333fddd7d11a8e5c3297bc76d9f115e = L.circleMarker(
+                [41.22619689931022, 28.70198698642965],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_3333fddd7d11a8e5c3297bc76d9f115e.bindTooltip(
+                `<div>
+                     @muhammetemiinn @lvntozrn Bunlar dediği sapıklıklarını inanç adı altında savunan ve topluma bir arama kurtarma köpeği kadar faydası olmayan sadece para toplamak ve insanları sömürmek için ortaya çıkan ahlaksız leş kargalarından bahsediyor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_67302b54edd709acb480b479297ac4f3 = L.circleMarker(
+                [40.741467982593946, 29.21437122152743],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_f935fb6e29b3be27f2bcc56e198a3352);
+        
+    
+            circle_marker_67302b54edd709acb480b479297ac4f3.bindTooltip(
+                `<div>
+                     Tüm köpekler toplatılıp eğitilmeli derken bana gülenler ve beni linçleyenler olmuştu. İngiltere 79 eğitimli kurtarma köpeği gönderdi. https://t.co/rucvhrXFAh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
